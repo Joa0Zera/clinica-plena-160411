@@ -438,10 +438,11 @@ section { padding: 80px 20px; }
 .cta-final p { color: var(--texto-secundario); font-size: 17px; margin-bottom: 34px; max-width: 560px; margin-left: auto; margin-right: auto; }
 
 /* ---------- Contato ---------- */
-.contato .container {
+#contato .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
+  align-items: center;
 }
 .contato-lista { list-style: none; display: flex; flex-direction: column; gap: 22px; margin-bottom: 30px; }
 .contato-lista li { display: flex; gap: 16px; align-items: flex-start; }
@@ -569,7 +570,7 @@ section { padding: 80px 20px; }
 
 /* ---------- Responsivo ---------- */
 @media (max-width: 900px) {
-  .sobre .container, .diferenciais-wrap, .contato .container { grid-template-columns: 1fr; }
+  .sobre .container, .diferenciais-wrap, #contato .container { grid-template-columns: 1fr; }
   .sobre-imagens { grid-template-columns: 1fr 1fr; }
   .sobre-img-principal { grid-row: span 1; max-height: 260px; }
 }
