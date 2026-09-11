@@ -1,0 +1,43 @@
+{
+  "empresa": {
+    "nome": "Clínica Plena",
+    "telefone": "(71) 99175-9399",
+    "email": "",
+    "endereco": "Edf Alpha Medical Center, sala 913, Av. Luiz Viana Filho, 7416 - Alphaville I - Paralela, Salvador - BA, 41170-015",
+    "instagram": ""
+  },
+  "pagina": {
+    "titulo": "Harmonização Corporal e Facial",
+    "subtitulo": "Ciência, cuidado e excelência para promover saúde, autoestima e bem-estar em Salvador",
+    "avaliacoes": "4.818 avaliações no Google"
+  },
+  "secoes": {
+    "hero": {
+      "titulo": "Harmonização Corporal e Facial",
+      "descricao": "Tratamentos personalizados com base nos princípios da saúde integrativa, em um centro de saúde e beleza no coração de Salvador.",
+      "cta_principal": "Agendar avaliação",
+      "cta_secundaria": "Falar no WhatsApp"
+    },
+    "servicos": {
+      "titulo": "Nossos Serviços",
+      "items": [
+        { "numero": "01", "nome": "Harmonização Facial", "desc": "Realce da beleza com naturalidade, respeitando as proporções e a identidade de cada rosto." },
+        { "numero": "02", "nome": "Harmonização Corporal", "desc": "Contorno e firmeza corporal com técnicas personalizadas para cada objetivo." },
+        { "numero": "03", "nome": "Hipro - Ultrassom Micro e Macrofocado", "desc": "Mais firmeza, mais contorno, mais colágeno. Estimula a produção de colágeno de forma não invasiva." },
+        { "numero": "04", "nome": "Cuidado Íntimo Feminino", "desc": "Rejuvenescimento íntimo para descobrir o poder de se amar por inteiro." },
+        { "numero": "05", "nome": "Estética Corporal", "desc": "Tratamento de gordura localizada, flacidez, estrias e celulite." },
+        { "numero": "06", "nome": "Tratamentos Faciais", "desc": "Manchas, acne, cicatrizes e fotoenvelhecimento tratados com tecnologia de ponta." },
+        { "numero": "07", "nome": "Pós-operatório e Pós-parto", "desc": "Reabilitação e recuperação com acompanhamento individualizado." }
+      ]
+    },
+    "sobre": {
+      "titulo": "Sobre a Clínica Plena",
+      "descricao": "A Plena é uma clínica de Estética, Saúde e Bem-Estar em Salvador, especializada em oferecer tratamentos personalizados com base nos princípios da saúde integrativa. Cada paciente é avaliado de forma individualizada para que o plano de tratamento respeite seu histórico, estilo de vida e objetivos. Contamos com tecnologia de ponta e equipe qualificada para tratamentos faciais, corporais e de estética íntima feminina. Na Plena, ciência, cuidado e excelência caminham juntos para promover saúde, autoestima e bem-estar."
+    }
+  },
+  "cores": {
+    "primaria": "#F5F1E8",
+    "secundaria": "#F8F3EB",
+    "destaque": "#FFFFFF"
+  }
+}
