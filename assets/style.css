@@ -163,6 +163,7 @@ section { padding: 80px 20px; }
   box-shadow: 0 6px 20px var(--sombra-suave);
 }
 .btn-primario:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 12px 28px var(--sombra-forte); }
+.header-acoes .btn-primario { background: #25D366; color: #ffffff; }
 .btn-secundario {
   background: transparent;
   color: var(--texto-principal);
@@ -496,7 +497,7 @@ section { padding: 80px 20px; }
   right: 20px;
   width: 58px; height: 58px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--cor-primaria), var(--texto-secundario) 260%);
+  background: #25D366;
   display: flex; align-items: center; justify-content: center;
   box-shadow: 0 6px 20px var(--sombra-forte);
   z-index: 400;
