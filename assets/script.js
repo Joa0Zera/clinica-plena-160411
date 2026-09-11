@@ -111,33 +111,6 @@ const estiloRipple = document.createElement('style');
 estiloRipple.textContent = `@keyframes efeitoRipple { to { transform: scale(2.4); opacity: 0; } }`;
 document.head.appendChild(estiloRipple);
 
-// ---------- Editor de conteúdo (config.json) ----------
-function abrirEditorModal() {
-  document.getElementById('editor-modal').style.display = 'flex';
-  document.getElementById('edit-titulo').value = configData.pagina?.titulo || '';
-  document.getElementById('edit-subtitulo').value = configData.pagina?.subtitulo || '';
-  document.getElementById('edit-telefone').value = configData.empresa?.telefone || '';
-  document.getElementById('edit-endereco').value = configData.empresa?.endereco || '';
-  document.getElementById('edit-instagram').value = configData.empresa?.instagram || '';
-}
-
-function fecharEditorModal() {
-  document.getElementById('editor-modal').style.display = 'none';
-}
-
-function salvarEdicoes() {
-  configData.pagina.titulo = document.getElementById('edit-titulo').value;
-  configData.pagina.subtitulo = document.getElementById('edit-subtitulo').value;
-  configData.empresa.telefone = document.getElementById('edit-telefone').value;
-  configData.empresa.endereco = document.getElementById('edit-endereco').value;
-  configData.empresa.instagram = document.getElementById('edit-instagram').value;
-
-  atualizarPagina();
-  salvarJSON();
-  fecharEditorModal();
-  alert('Alterações salvas! Download do arquivo JSON iniciado.');
-}
-
 function valorAninhado(obj, caminho) {
   return caminho.split('.').reduce((acc, chave) => (acc && acc[chave] !== undefined ? acc[chave] : undefined), obj);
 }
